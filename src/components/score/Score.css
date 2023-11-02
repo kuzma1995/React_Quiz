@@ -1,0 +1,16 @@
+.score__container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score__container p {
+    font-weight: lighter;
+}
+
+.score__container button {
+    width: 30%;
+}

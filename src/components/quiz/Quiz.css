@@ -1,0 +1,27 @@
+.quiz__container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question__number {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.question__text {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 80%;
+}
